@@ -18,4 +18,4 @@ yarn start
 
 [Heroku Backend App](https://loginapplojaintegrada.herokuapp.com)
 
-[Backend Repository GitHub](https://github.com/MateusGuedess/lojaIntegrada_frontend)
+[FrontEnd Repository GitHub](https://github.com/MateusGuedess/lojaIntegrada_frontend)
