@@ -8,7 +8,7 @@ const http = require('http')
 const app = express()
 
 app.use(cors())
-
+port = process.env.PORT || 3001
 const server = new ApolloServer({
      typeDefs,
      resolvers
@@ -16,6 +16,6 @@ const server = new ApolloServer({
 
 server.applyMiddleware({ app })
 
-http.createServer(app).listen(3001, () => {
+http.createServer(app).listen(port, () => {
     console.log("RUNNING IN PORT 3001")
 })
